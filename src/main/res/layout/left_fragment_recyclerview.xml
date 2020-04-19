@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="545dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="58dp" />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+<!--        android:gravity="center">-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewBlack"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="76dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginStart="158dp"-->
+<!--            android:layout_marginLeft="158dp"-->
+<!--            android:layout_marginEnd="121dp"-->
+<!--            android:layout_marginRight="121dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/black" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewRed"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_below="@+id/imageViewBlack"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginStart="159dp"-->
+<!--            android:layout_marginLeft="159dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:layout_marginEnd="140dp"-->
+<!--            android:layout_marginRight="140dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/red" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewBlue"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_below="@+id/imageViewRed"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginLeft="160dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginEnd="139dp"-->
+<!--            android:layout_marginRight="139dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/blue" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewGreen"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_below="@+id/imageViewBlue"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginLeft="160dp"-->
+<!--            android:layout_marginTop="21dp"-->
+<!--            android:layout_marginEnd="139dp"-->
+<!--            android:layout_marginRight="139dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/green" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewGray"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_below="@+id/imageViewGreen"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginLeft="160dp"-->
+<!--            android:layout_marginTop="19dp"-->
+<!--            android:layout_marginEnd="139dp"-->
+<!--            android:layout_marginRight="139dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/grey" />-->
+
+
+<!--    </RelativeLayout>-->
+
+
+</RelativeLayout>

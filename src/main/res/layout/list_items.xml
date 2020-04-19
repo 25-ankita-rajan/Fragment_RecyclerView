@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="20dp"
+
+    card_view:cardCornerRadius="4dp"
+
+    card_view:cardElevation="15dp"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageViewBlack"
+            android:srcCompat="@android:color/background_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewRed"-->
+<!--            android:srcCompat="@android:color/holo_red_dark"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/red" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewBlue"-->
+<!--            android:srcCompat="@android:color/holo_blue_dark"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/blue" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewGreen"-->
+<!--            android:srcCompat="@android:color/holo_green_dark"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/green" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewGrey"-->
+<!--            android:srcCompat="@android:color/darker_gray"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/grey" />-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
